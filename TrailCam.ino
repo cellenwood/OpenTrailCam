@@ -27,7 +27,7 @@ void InitializeSerial(unsigned long speed) {
  
 void loop() {
   picture* picture = camera.TakePicture();
-  storage.Save(picture->buf, picture->len);
+  storage.Save("picture", ".jpg", picture->buf, picture->len);
   camera.Release(picture);
   motionSensor.WaitForMotion();
 }

@@ -18,12 +18,10 @@ void Storage::Initialize() {
     file_number = EEPROM.read(0);
 }
 
-void Storage::Save(uint8_t* data, size_t length) {
-    file_number += 1;
-
-    String path = "/picture" + String(file_number) +".jpg";
+void Storage::Save(String rootFileName, String extension, uint8_t* data, size_t length) {
+    String path = GetNewFileName(rootFileName, extension);
+    
     fs::FS &fs = SD_MMC;
- 
     File file = fs.open(path.c_str(), FILE_WRITE);
     if(!file){
         Serial.println("Failed to open file in writing mode");
@@ -34,7 +32,13 @@ void Storage::Save(uint8_t* data, size_t length) {
     file.close();
 
     Serial.printf("Saved file to path: %s\n", path.c_str());
-    
+}
+
+String Storage::GetNewFileName(String rootFileName, String extension) {
+    file_number++;
     EEPROM.write(0, file_number);
     EEPROM.commit();
+
+    String fileName = "/" + rootFileName + String(file_number) + extension;
+    return fileName;
 }
