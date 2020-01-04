@@ -1,0 +1,6 @@
+{
+    "sketch": "TrailCam.ino",
+    "board": "esp32:esp32:esp32wrover",
+    "configuration": "PartitionScheme=huge_app,FlashMode=qio,FlashFreq=80,UploadSpeed=921600,DebugLevel=none",
+    "output": "./build"
+}

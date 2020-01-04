@@ -1,0 +1,67 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\TrailCam.ino.cpp",
+    "Include": "FS.h",
+    "Includepath": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\FS\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\TrailCam.ino.cpp",
+    "Include": "SD_MMC.h",
+    "Includepath": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\SD_MMC\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\TrailCam.ino.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\EEPROM\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\TrailCam.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\Camera.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\MotionSensor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "c:\\Users\\fun2x\\Documents\\Arduino\\TrailCam\\build\\sketch\\Storage.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\FS\\src\\FS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\FS\\src\\vfs_api.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\SD_MMC\\src\\SD_MMC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\fun2x\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.4\\libraries\\EEPROM\\src\\EEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
