@@ -15,7 +15,6 @@ void Storage::Initialize() {
     }
 
     EEPROM.begin(EEPROM_SIZE);
-    file_number = EEPROM.read(0);
 }
 
 void Storage::Save(String rootFileName, String extension, uint8_t* data, size_t length) {
@@ -35,10 +34,10 @@ void Storage::Save(String rootFileName, String extension, uint8_t* data, size_t 
 }
 
 String Storage::GetNewFileName(String rootFileName, String extension) {
-    file_number++;
-    EEPROM.write(0, file_number);
+    uint8_t fileNumber = EEPROM.read(0);
+    fileNumber++;
+    EEPROM.write(0, fileNumber);
     EEPROM.commit();
-
-    String fileName = "/" + rootFileName + String(file_number) + extension;
-    return fileName;
+    
+    return "/" + rootFileName + String(fileNumber) + extension;
 }

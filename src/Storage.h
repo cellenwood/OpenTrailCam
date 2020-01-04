@@ -10,7 +10,6 @@
 
 class Storage {
     private:
-        int file_number = 0;
         String GetNewFileName(String rootFileName, String extension);
     public:
         void Initialize();

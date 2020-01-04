@@ -8,7 +8,7 @@
 #include "EspConstants.h"
  
 RTC_DATA_ATTR int bootCount = 0;
- 
+
 MotionSensor motionSensor;
 Camera camera;
 Storage storage;
