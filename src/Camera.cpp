@@ -45,7 +45,7 @@ void Camera::Initialize() {
 }
 
 picture* Camera::TakePicture() {
-  camera_fb_t* picture = esp_camera_fb_get();  
+  picture* picture = esp_camera_fb_get();  
   if(!picture) {
     Serial.println("Camera capture failed");
     return NULL;

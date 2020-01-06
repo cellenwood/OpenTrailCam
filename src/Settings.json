@@ -1,0 +1,9 @@
+{
+    "network": {
+        "ssid": "SolarSystem.1",
+        "password": "asteroid"
+    },
+    "host": {
+        "upload.address": "http://opentrailcam.com/images/upload"
+    }
+}
